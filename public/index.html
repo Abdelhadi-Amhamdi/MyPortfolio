@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/> -->
+
+
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="welcome in my portfolio i hope you enjoy"
+    />
+  
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/rests.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="shortcut icon" href="./logo.svg" type="image/x-icon">
+    
+    <!-- fonts -->
+    <link rel="stylesheet" href="./fonts/JosefinSans/JosefinSans-Italic-VariableFont_wght.ttf">
+    <link rel="stylesheet" href="./fonts/JosefinSans/JosefinSans-VariableFont_wght.ttf">
+    <link rel="stylesheet" href="./fonts/operator-mono-font-master/Operator Mono Bold Regular.otf">
+    <link rel="stylesheet" href="./fonts/operator-mono-font-master/Operator Mono Book Regular.otf">
+  
+    <title>Abdelhadi_Amhamdi</title>
+    
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    
+<script src="./js/jquery-3.3.1.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+
+<script>
+  $(document).ready(()=> {
+    $(window).scroll(()=> {
+      var top = $(window).scrollTop();
+      const nav = $('.navbar');
+      if(top >= 100 ){
+        nav.addClass('change');
+      }else if(nav.hasClass('change')){
+        nav.removeClass('change')
+      }
+    })
+  })
+      
+</script>
+  </body>
+</html>

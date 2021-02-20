@@ -1,0 +1,73 @@
+@media screen and (max-width: 540px) {
+  .navbar {
+    width: 100% !important;
+  }
+  .navbar a {
+    font-size: 1.2rem !important;
+  }
+  .row.slider {
+    height: 80vh !important;
+  }
+  ul.list-aside {
+    width: 116.5% !important;
+  }
+  .col-md-12.itro,
+  .col-md-12.skills,
+  .col-md-12.works,
+  .col-md-12.contact {
+    width: 96% !important;
+  }
+  .list-of-skills.row .col-md-2 {
+    width: auto !important;
+  }
+  .col-md-12.works .col-md-4 {
+    width: 100% !important;
+  }
+  .col-md-12.works .col-md-4 img {
+    height: 200px !important;
+  }
+}
+
+@media screen and (width: 1024px) {
+  .navbar {
+    width: 100% !important;
+  }
+  .navbar a {
+    font-size: 1.2rem !important;
+  }
+  .row.slider {
+    height: 40vh !important;
+  }
+  ul.list-aside {
+    width: 90% !important;
+  }
+  .list-of-skills.row .col-md-2 {
+    max-width: 200px !important;
+  }
+}
+
+@media screen and (width: 768px) {
+  .navbar {
+    width: 100% !important;
+  }
+  .navbar a {
+    font-size: 1.2rem !important;
+  }
+  .row.slider {
+    height: 40vh !important;
+  }
+  ul.list-aside {
+    width: 90% !important;
+  }
+  .list-of-skills.row .col-md-2 {
+    max-width: 200px !important;
+    max-width: auto !important;
+  }
+}
+
+@media screen and (width: 624px) {
+  .row.slider {
+    height: 40vh !important;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

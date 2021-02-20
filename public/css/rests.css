@@ -1,0 +1,35 @@
+body.dark {
+    background-color: rgb(12, 10, 10);
+    background-image: url('../img/ascii-pattern-tall.svg');
+}
+body.light {
+    background-color: whitesmoke;
+    background-image: url('../img/ascii-pattern-tall.svg');
+}
+
+
+a {
+    /* color: white; */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.hamburger-react {
+    display: none;
+}
+
+.fa {
+    color: gray;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid gray;
+    color: gray;
+}
+
+
