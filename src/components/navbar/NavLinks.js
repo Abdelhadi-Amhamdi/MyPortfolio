@@ -31,6 +31,7 @@ const NavLinks = () => {
                 <button onClick={toggleTheme}>
                     <Icon name={theme === 'dark'? 'day' : 'night'} />
                 </button>
+                
             </li>
             <li>
                 <img src="./img/avatar/3.jpg" alt="this is the avatar"></img>

@@ -10,16 +10,16 @@ const Aside = () => {
     <>
       <ul className="list-aside">
         <li onClick={btnclick}>
-          <a href="#intro">{aside.num1}</a>
+          {aside.num1}
         </li>
         <li onClick={btnclick}>
-          <a href="#skills">{aside.num2}</a>
+          {aside.num2}
         </li>
         <li onClick={btnclick}>
-          <a href="#works">{aside.num3}</a>
+          {aside.num3}
         </li>
         <li onClick={btnclick}>
-          <a href="#contact">{aside.num4}</a>
+          {aside.num4}
         </li>
       </ul>
     </>

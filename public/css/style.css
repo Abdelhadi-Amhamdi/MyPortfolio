@@ -32,7 +32,7 @@ body.dark .nav .navbar > div {
 
 body.dark .nav .navbar > div a {
   font-family: "Operator mono";
-  text-transform: uppercase;
+  font-style: italic;
   font-size: 1.5rem;
   color: white !important;
 }
@@ -169,13 +169,6 @@ body.dark .row.main .col-md-4 ul li a {
   color: white !important;
 }
 
-body.dark .row.main .col-md-8 #container {
-  width: 104%;
-  height: 100vh;
-  scroll-behavior: smooth !important;
-  overflow-y: scroll !important;
-}
-
 body.dark .row.main .col-md-8 #container .itro {
   background-color: rgba(47, 46, 46, 0.2);
   -webkit-box-shadow: rgba(0, 0, 0, 0.9) 0px 3px 14px;
@@ -283,6 +276,10 @@ body.dark .row.main .col-md-8 #container .works .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+body.dark .row.main .col-md-8 #container .works .row .col-md-4 {
+  margin: 0;
 }
 
 body.dark .row.main .col-md-8 #container .works .row .card {
@@ -412,11 +409,11 @@ body.dark .row.main .col-md-8 #container .contact .form-group .form-control {
 }
 
 body.light {
-  background-color: white !important;
+  background-color: #f8f9fa !important;
 }
 
 body.light .navbar {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: white;
   -webkit-box-shadow: rgba(14, 14, 14, 0.3) 1px 4px 6px;
           box-shadow: rgba(14, 14, 14, 0.3) 1px 4px 6px;
   height: 80px;
@@ -495,7 +492,7 @@ body.light .row.slider {
   font-style: italic;
   font-weight: bold;
   margin-top: 20px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: white;
   -webkit-box-shadow: rgba(14, 14, 14, 0.3) 1px 4px 6px;
           box-shadow: rgba(14, 14, 14, 0.3) 1px 4px 6px;
   width: 100%;
@@ -572,7 +569,7 @@ body.light .row.main .col-md-4 {
 }
 
 body.light .row.main .col-md-4 ul {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: white;
   -webkit-box-shadow: rgba(14, 14, 14, 0.3) 1px 4px 6px;
           box-shadow: rgba(14, 14, 14, 0.3) 1px 4px 6px;
   width: 100%;
@@ -592,15 +589,8 @@ body.light .row.main .col-md-4 ul li a {
   color: black !important;
 }
 
-body.light .row.main .col-md-8 #container {
-  width: 104%;
-  height: 100vh;
-  scroll-behavior: smooth !important;
-  overflow-y: scroll !important;
-  padding: 10px !important;
-}
-
 body.light .row.main .col-md-8 .itro {
+  background-color: white;
   -webkit-box-shadow: rgba(14, 14, 14, 0.3) 1px 4px 6px;
           box-shadow: rgba(14, 14, 14, 0.3) 1px 4px 6px;
   color: #252525;
@@ -635,7 +625,7 @@ body.light .row.main .col-md-8 .skills {
   width: 100%;
   padding: 20px;
   margin-bottom: 20px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: white;
   -webkit-box-shadow: rgba(14, 14, 14, 0.3) 1px 4px 6px;
           box-shadow: rgba(14, 14, 14, 0.3) 1px 4px 6px;
 }
@@ -683,7 +673,7 @@ body.light .row.main .col-md-8 .skills .list-of-skills .col i {
 }
 
 body.light .row.main .col-md-8 .works {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: white;
   -webkit-box-shadow: rgba(14, 14, 14, 0.3) 1px 4px 6px;
           box-shadow: rgba(14, 14, 14, 0.3) 1px 4px 6px;
   color: #252525;
@@ -770,7 +760,7 @@ body.light .row.main .col-md-8 .works .row .card:hover .overlay {
 }
 
 body.light .row.main .col-md-8 .contact {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: white;
   -webkit-box-shadow: rgba(14, 14, 14, 0.3) 1px 4px 6px;
           box-shadow: rgba(14, 14, 14, 0.3) 1px 4px 6px;
   color: #252525;

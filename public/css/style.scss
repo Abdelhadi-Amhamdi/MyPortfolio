@@ -1,6 +1,15 @@
 
 $darkPrimary : #dc3545 ;
 $lightPrimary : #dc3545 ;
+ 
+
+// @import '../fonts/operator-mono-font-master/Operator\ Mono\ Bold\ Regular.otf';
+// @import '../fonts/operator-mono-font-master/Operator\ Mono\ Book\ Italic.otf';
+// @import '../fonts/operator-mono-font-master/Operator\ Mono\ Book\ Regular.otf';
+// @import '../fonts/JosefinSans/JosefinSans-Italic-VariableFont_wght.ttf';
+// @import '../fonts/JosefinSans/JosefinSans-VariableFont_wght.ttf';
+
+
 
 
 
@@ -24,7 +33,7 @@ body.dark {
             align-items: center;
             a{
                 font-family: "Operator mono";
-                text-transform: uppercase;
+                font-style: italic;
                 font-size: 1.5rem;
                 color: white !important;
             }
@@ -134,10 +143,6 @@ body.dark {
         }
         .col-md-8 {
             #container{
-                    width: 104%;
-                    height: 100vh;
-                    scroll-behavior: smooth !important;
-                    overflow-y: scroll !important;
                     
                 .itro{
                     background-color: rgba($color: rgb(47, 46, 46), $alpha: 0.2);
@@ -221,6 +226,9 @@ body.dark {
                         padding: 0;
                         margin-top: 40px;
                         align-items: center;
+                        .col-md-4{
+                            margin: 0;
+                        }
                         .card {
                             margin-bottom: 10px;
                             border-radius: 0px;
@@ -343,9 +351,9 @@ body.dark {
 
 
 body.light {
-    background-color: white !important;
+    background-color: #f8f9fa !important;
     .navbar {
-        background-color:rgba($color:white, $alpha: .2);
+        background-color:rgba($color:white, $alpha: 1);
         box-shadow: rgba(14, 14, 14, 0.3) 1px 4px 6px;
         height: 80px;
         position: relative;
@@ -406,7 +414,7 @@ body.light {
         font-style: italic;
         font-weight: bold;
         margin-top: 20px;
-        background-color:rgba($color:white, $alpha: .2);
+        background-color:rgba($color:white, $alpha: 1);
         box-shadow: rgba(14, 14, 14, 0.3) 1px 4px 6px;
         width: 100%;
         height: 60vh;
@@ -459,7 +467,7 @@ body.light {
             margin-left: -15px;
             
             ul {
-                background-color:rgba($color:white, $alpha: .2);
+                background-color:rgba($color:white, $alpha: 1);
                 box-shadow: rgba(14, 14, 14, 0.3) 1px 4px 6px;
                 width: 100%;
                 height: auto;
@@ -477,16 +485,9 @@ body.light {
             }
         }
         .col-md-8 {
-                #container{
-                    width: 104%;
-                    height: 100vh;
-                    scroll-behavior: smooth !important;
-                    overflow-y: scroll !important;
-                    padding: 10px !important;
-
-                }
+               
                 .itro{
-                    // background-color:rgba($color:white, $alpha: .2);
+                    background-color:rgba($color:white, $alpha: 1);
                     box-shadow: rgba(14, 14, 14, 0.3) 1px 4px 6px;
                     color: #252525;
                     // background-color: red;
@@ -516,7 +517,7 @@ body.light {
                     width: 100%;
                     padding: 20px;
                     margin-bottom: 20px;
-                    background-color:rgba($color:white, $alpha: .2);
+                    background-color:rgba($color:white, $alpha: 1);
                     box-shadow: rgba(14, 14, 14, 0.3) 1px 4px 6px;
                     h6{
                         font-family: Lucida Handwriting;
@@ -550,7 +551,7 @@ body.light {
                     }
                 }
                 .works {
-                    background-color:rgba($color:white, $alpha: .2);
+                    background-color:rgba($color:white, $alpha: 1);
                     box-shadow: rgba(14, 14, 14, 0.3) 1px 4px 6px;
                     color: #252525;
                     width: 100%;
@@ -622,7 +623,7 @@ body.light {
                     }
                 }
                 .contact{
-                    background-color:rgba($color:white, $alpha: .2);
+                    background-color:rgba($color:white, $alpha: 1);
                     box-shadow: rgba(14, 14, 14, 0.3) 1px 4px 6px;
                     color:#252525;
                     width: 100%;

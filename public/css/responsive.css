@@ -5,6 +5,9 @@
   .navbar a {
     font-size: 1.2rem !important;
   }
+  .navbar > div .nav-links li img {
+    display: none;
+  }
   .row.slider {
     height: 80vh !important;
   }
