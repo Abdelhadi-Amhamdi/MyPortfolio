@@ -1,18 +1,28 @@
-import React from 'react'
+import React, {useEffect , useState} from 'react'
 import Icon from '../icon'
 import { useTheme } from '../../hooks'
 import {SocilLinks} from '../context'
 import useSound from 'use-sound'
 import btnsound from '../../assets/btn_click.wav'
 import lightclick from '../../assets/light.wav' 
+import {useLocalStorage} from '../../hooks/useLocalStorage'
 
 const NavLinks = () => {
 
+    const [lan , setlan] = useState('en')
     const [theme , toggleTheme] = useTheme();
 
     const [clickBtn] = useSound(btnsound)
     const [light] = useSound(lightclick)
 
+   
+    function toggleLang() {
+      if(lan === 'en'){
+          setlan('ar')
+      }else{
+          setlan('en')
+      }
+    }
     return (
         <div className="nav-links">       
             {SocilLinks.map(link => (
@@ -27,15 +37,20 @@ const NavLinks = () => {
                     </a>
                 </li>
             ))}
+            {/* <li onClick={light}>
+                <button onClick={toggleLang}>
+                    <i class="fa fa-language" aria-hidden="true"></i>
+                </button>
+            </li> */}
             <li onClick={light}>
                 <button onClick={toggleTheme}>
                     <Icon name={theme === 'dark'? 'day' : 'night'} />
                 </button>
                 
             </li>
-            <li>
+            {/* <li>
                 <img src="./img/avatar/3.jpg" alt="this is the avatar"></img>
-            </li>
+            </li> */}
         </div>
     )
 }

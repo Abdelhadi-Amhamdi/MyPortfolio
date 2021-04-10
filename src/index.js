@@ -8,9 +8,9 @@ import Loader from './loader.jsx'
 document.addEventListener('DOMContentLoaded' , ()=> {
     setTimeout(() => {
         ReactDom.render(<App />, document.getElementById('root'))
-    }, 5000);
+    }, 10);
     ReactDom.render(<Loader />, document.getElementById('root'))
-    
 })
+
 
 

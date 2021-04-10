@@ -10,6 +10,9 @@ const Aside = () => {
     <>
       <ul className="list-aside">
         <li onClick={btnclick}>
+          About
+        </li>
+        <li onClick={btnclick}>
           {aside.num1}
         </li>
         <li onClick={btnclick}>

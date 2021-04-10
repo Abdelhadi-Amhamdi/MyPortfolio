@@ -1,700 +1,751 @@
+// $darkPrimary: #dc3545;
+$lightPrimary: #dc3545;
 
-$darkPrimary : #dc3545 ;
-$lightPrimary : #dc3545 ;
- 
-
+$darkPrimary: #3f51b5;
 // @import '../fonts/operator-mono-font-master/Operator\ Mono\ Bold\ Regular.otf';
 // @import '../fonts/operator-mono-font-master/Operator\ Mono\ Book\ Italic.otf';
 // @import '../fonts/operator-mono-font-master/Operator\ Mono\ Book\ Regular.otf';
 // @import '../fonts/JosefinSans/JosefinSans-Italic-VariableFont_wght.ttf';
 // @import '../fonts/JosefinSans/JosefinSans-VariableFont_wght.ttf';
 
-
-
-
-
-
 body.dark {
-    font-family: "Josefin sans" !important;
-    .nav{
-        width: 100%;
-        z-index: 2;
+  font-family: "Josefin sans" !important;
+  .nav {
+    width: 100%;
+    z-index: 2;
     .navbar {
-        background-color: rgba($color: rgb(47, 46, 46), $alpha: 0.2);
-        box-shadow: rgba($color: #000000, $alpha: 0.9) 0px 3px 14px;
-        height: 80px;
-        position: relative;
-        z-index: 1;
+      background-color: rgba($color: #212529, $alpha: 0.1);
+      box-shadow: rgba($color: #000000, $alpha: 0.9) 0px 3px 14px;
+      height: 80px;
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      > div {
+        display: flex;
         width: 100%;
-        >div {
-            display: flex;
-            width: 100%;
-            justify-content: space-between;
-            align-items: center;
-            a{
-                font-family: "Operator mono";
-                font-style: italic;
-                font-size: 1.5rem;
-                color: white !important;
-            }
-            .nav-links{
-                display: flex;
-                list-style: none;
-                justify-content: space-around;
-                width: 300px;
-                li {
-                    i{
-                        width: 25px;
-                        height: 25px;
-                        display: flex;
-                        color: white;
-                        justify-content: center;
-                        align-items: center;
-                        text-align: center;
-                        margin-top: 10px;
-                        cursor: pointer;
-                        margin: 10px;
-                    }
-                    button{
-                        outline: none;
-                        color: white;
-                        background-color: transparent;
-                        border: none;
-                        cursor: pointer;
-                        margin-top: 10px;
-                    }
-                    img{
-                        width: 45px;
-                        height: 45px;
-                        border-radius: 50%;
-                    }
-                }
-            }
+        justify-content: space-between;
+        align-items: center;
+        a {
+          font-family: "Operator mono";
+          font-style: italic;
+          font-size: 1.5rem;
+          color: white !important;
         }
+        .nav-links {
+          display: flex;
+          list-style: none;
+          justify-content: space-around;
+          width: 300px;
+          li {
+            i {
+              width: 25px;
+              height: 25px;
+              display: flex;
+              color: white;
+              justify-content: center;
+              align-items: center;
+              text-align: center;
+              margin-top: 10px;
+              cursor: pointer;
+              margin: 10px;
+            }
+            button {
+              outline: none;
+              color: white;
+              background-color: transparent;
+              border: none;
+              cursor: pointer;
+              margin-top: 10px;
+            }
+            img {
+              width: 45px;
+              height: 45px;
+              border-radius: 50%;
+            }
+          }
+        }
+      }
     }
     // .change {
     //     background-color: rgb(82, 82, 82) !important;
     //     /* border: white 1px solid; */
     // }
-    }
-    
-    
-    .row.slider{
-        margin-top: 20px;
-        background-color: rgba($color: rgb(47, 46, 46), $alpha: 0.2);
-        box-shadow: rgba($color: #000000, $alpha: 0.9) 0px 3px 14px;
+  }
+
+  .row.slider {
+    margin-top: 20px;
+    background-color: rgba($color: #212529,  $alpha: 0.2);
+    box-shadow: rgba($color: #000000, $alpha: 0.9) 0px 3px 14px;
+    width: 100%;
+    height: 60vh;
+    margin-left: 0px;
+
+    .col-md-6 {
+      svg {
+        width: 65%;
+        height: 100%;
+        margin-left: 20%;
+        .st0 {
+          fill: #e6e6e6;
+        }
+        .st1 {
+          opacity: 0.1;
+          enable-background: new;
+        }
+        .st2 {
+          fill: #3f3d56;
+        }
+        .st3 {
+          fill: #f2f2f2;
+        }
+        .st4 {
+          fill: $darkPrimary;
+        }
+        .st5 {
+          fill: #2f2e41;
+        }
+        .st6 {
+          fill: #ffb8b8;
+        }
+      }
+    //   img {
+    //     width: 70%;
+    //     height: 100%;
+    //     padding: 20px;
+    //   }
+      h1 {
+        color: white;
+        font-family: "Operator Mono";
+        font-style: italic;
         width: 100%;
-        height: 60vh;
-        margin-left:0px;
-        
-        .col-md-6{
-            svg{
-                width: 100%;
-                height: 100%;
-                .cls-1{fill:#ffffff;}
-                .cls-2{fill:#3f3d56;}
-                .cls-3{fill:$darkPrimary;}
-                .cls-4{fill:#2f2e41;}
-                .cls-5{fill:#ffb9b9;}
-                .cls-6{opacity:0.1;isolation:isolate;}
-                .cls-7{fill:#575a89;}
-            }
-            
-            h1{
+        text-align: center;
+        font-size: 25px;
+        font-weight: 100;
+        margin-top: 50px;
+        line-height: 1.75;
+      }
+    }
+  }
+
+  .row.main {
+    margin-top: 20px;
+    margin-left: 0px;
+    .col-md-4 {
+      width: 90%;
+      color: white;
+      margin-top: 0px;
+      margin-left: -15px;
+      ul {
+        margin-top: 0;
+        background-color: rgba($color: #212529 , $alpha: 0.2);
+        box-shadow: rgba($color: #000000, $alpha: 0.9) 0px 3px 14px;
+        width: 350px;
+        height: auto;
+        padding: 20px 30px;
+        list-style-type: "#";
+        li {
+          margin-top: 20px;
+          cursor: pointer;
+          a {
+            color: white !important;
+          }
+        }
+      }
+    }
+    .col-md-8 {
+      #container {
+        .itro {
+          background-color: rgba($color: #212529 , $alpha: 0.2);
+          box-shadow: rgba($color: #000000, $alpha: 0.9) 0px 3px 14px;
+          color: white;
+          width: 100%;
+          padding: 20px;
+          margin-bottom: 20px;
+          h6 {
+            font-family: Lucida Handwriting;
+            font-size: 12px;
+          }
+          h2 {
+            font-weight: bold;
+            font-family: "Operator Mono";
+            font-style: italic;
+          }
+          p {
+            margin-top: 40px;
+            font-family: "Josefin sans";
+            text-transform: capitalize;
+            line-height: 2.75;
+            letter-spacing: 1px;
+          }
+        }
+        .skills {
+          background-color: rgba($color: #212529, $alpha: 0.5);
+          box-shadow: rgba($color: #000000, $alpha: 0.2) 0px 3px 4px;
+          color: white;
+          width: 100%;
+          padding: 20px;
+          margin-bottom: 20px;
+          h6 {
+            font-family: Lucida Handwriting;
+            font-size: 12px;
+          }
+          h2 {
+            font-weight: bold;
+            font-family: "Operator Mono";
+            font-style: italic;
+          }
+          .list-of-skills {
+            margin-top: 40px;
+            .col {
+              background-color: $darkPrimary;
+              color: white;
+              width: 90%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              height: 40px;
+              margin: 5px;
+              border-radius: 10px;
+              padding: 20px;
+              i {
                 color: white;
-                font-family: "Operator Mono";
-                font-style: italic;
+                margin-left: 10px;
+              }
+            }
+          }
+        }
+        .works {
+          background-color: rgba($color: #212529 , $alpha: 0.2);
+          box-shadow: rgba($color: #000000, $alpha: 0.9) 0px 3px 14px;
+          color: white;
+          width: 100%;
+          padding: 20px !important;
+          margin-bottom: 20px;
+          padding-left: 10px;
+          h6 {
+            font-family: Lucida Handwriting;
+            font-size: 12px;
+          }
+          h2 {
+            font-weight: bold;
+            font-family: "Operator Mono";
+            font-style: italic;
+          }
+          .row {
+            margin: auto;
+            padding: 0;
+            margin-top: 40px;
+            align-items: center;
+            .col-md-4 {
+              margin: 0;
+            }
+            .card {
+              margin-bottom: 10px;
+              border-radius: 0px;
+              border: none;
+              width: 100%;
+              img {
                 width: 100%;
-                text-align: center;
-                font-size: 25px;
-                font-weight: 100;
-                margin-top: 50px;
-                line-height: 1.75;
+                height: 150px;
+              }
+              h3 {
+                color: white;
+                background-color: $darkPrimary;
+                padding: 10px;
+                position: absolute;
+                top: 0px;
+                font-size: 14px;
+                width: 70px;
+              }
+              .overlay {
+                display: none;
+                padding: 20px;
+                color: white !important;
+                transition: all 2s ease;
+                h4 {
+                  cursor: pointer;
+                  font-size: 1rem;
+                }
+                .btn-primary {
+                  background-color: transparent;
+                  font-size: 1rem;
+                  border: none;
+                  a {
+                    color: white !important;
+                  }
+                }
+                .btn-primary:hover {
+                  border: $darkPrimary 1px solid;
+                }
+              }
+              .overlayLeft {
+                width: 0;
+                left: 0;
+                top: 0;
+                height: 100%;
+              }
             }
-            
+            .card:hover .overlayLeft {
+              width: 100%;
+              display: block;
+              background-color: rgba($color: #000000, $alpha: 0.9);
+              z-index: 1;
+              position: absolute;
+              top: 0px;
+              width: 100%;
+              height: 100%;
+            }
+          }
         }
-    }
-    
-    .row.main{
-        margin-top: 20px;
-        margin-left: 0px;
-        .col-md-4{
-            
-            width: 90%;
+        .contact {
+          background-color: rgba($color: #212529 , $alpha: 0.2);
+          box-shadow: rgba($color: #000000, $alpha: 0.9) 0px 3px 14px;
+          color: white;
+          width: 100%;
+          padding: 20px !important;
+          margin-bottom: 20px;
+          padding-left: 10px;
+          h6 {
+            font-family: Lucida Handwriting;
+            font-size: 12px;
+          }
+          h2 {
+            font-weight: bold;
+            font-family: "Operator Mono";
+            font-style: italic;
+          }
+          h4 {
+            font-family: "Josefin sans";
+            margin-top: 50px;
+            font-size: 20px;
+          }
+          .row {
+            margin-top: 40px;
+            .col {
+              a {
+                font-size: 2rem;
+                color: white;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+              }
+            }
+          }
+          .btn-primary {
+            background-color: $darkPrimary;
+            border: 1px solid white;
             color: white;
-            margin-top: 0px;
-            margin-left: -15px;
-            ul {
-                margin-top: 0;
-                background-color: rgba($color: rgb(47, 46, 46), $alpha: 0.2);
-                box-shadow: rgba($color: #000000, $alpha: 0.9) 0px 3px 14px;
-                width: 350px;
-                height: auto;
-                padding: 20px 30px;
-                list-style-type: '#';
-                li {
-                    margin-top: 20px;
-                    cursor: pointer;
-                    a{
-                        color: white !important;
-                    }
-                }
+            border-radius: 0px;
+          }
+          .form-group {
+            .form-control {
+              background-color: transparent;
+              border-radius: 0px;
+              color: white;
             }
+          }
         }
-        .col-md-8 {
-            #container{
-                    
-                .itro{
-                    background-color: rgba($color: rgb(47, 46, 46), $alpha: 0.2);
-                    box-shadow: rgba($color: #000000, $alpha: 0.9) 0px 3px 14px;
-                    color: white;
-                    width: 100%;
-                    padding: 20px;
-                    margin-bottom: 20px;
-                    h6{
-                        font-family: Lucida Handwriting;
-                        font-size: 12px;
-                    }
-                    h2{
-                        font-weight: bold;
-                        font-family: "Operator Mono";
-                        font-style: italic;
-                    }
-                    p{
-                        margin-top: 40px;
-                        font-family: "Josefin sans";
-                        text-transform: capitalize;
-                        line-height: 2.75;
-                        letter-spacing: 1px;
-                    }
-                }
-                .skills {
-                    background-color: rgba($color: rgb(47, 46, 46), $alpha: 0.2);
-                    box-shadow: rgba($color: #000000, $alpha: 0.9) 0px 3px 14px;
-                    color: white;
-                    width: 100%;
-                    padding: 20px;
-                    margin-bottom: 20px;
-                    h6{
-                        font-family: Lucida Handwriting;
-                        font-size: 12px;
-                    }
-                    h2{
-                        font-weight: bold;
-                        font-family: "Operator Mono";
-                        font-style: italic;
-                    }
-                    .list-of-skills {
-                        margin-top: 40px;
-                        .col {
-                            background-color:$darkPrimary;
-                            color: white;
-                            width: 90%;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            height: 40px;
-                            margin: 5px;
-                            border-radius: 10px;
-                            padding: 20px;
-                            i {
-                                color: white;
-                                margin-left: 10px;
-                            }
-                        }
-                    }
-                }
-                .works {
-                    background-color: rgba($color: rgb(47, 46, 46), $alpha: 0.2);
-                    box-shadow: rgba($color: #000000, $alpha: 0.9) 0px 3px 14px;
-                    color: white;
-                    width: 100%;
-                    padding: 20px !important;
-                    margin-bottom: 20px;
-                    padding-left: 10px;
-                    h6{
-                        font-family: Lucida Handwriting;
-                        font-size: 12px;
-                    }
-                    h2{
-                        font-weight: bold;
-                        font-family: "Operator Mono";
-                        font-style: italic;
-                    }
-                    .row{
-                        margin: auto;
-                        padding: 0;
-                        margin-top: 40px;
-                        align-items: center;
-                        .col-md-4{
-                            margin: 0;
-                        }
-                        .card {
-                            margin-bottom: 10px;
-                            border-radius: 0px;
-                            border: none;
-                            width: 100%;
-                            img {
-                                width: 100%;
-                                height: 150px;
-                            }
-                            h3{
-                                color: white;
-                                background-color: $darkPrimary;
-                                padding: 10px;
-                                position: absolute;
-                                top: 0px;
-                                font-size: 14px;
-                                width: 70px;
-                            }
-                            .overlay {
-                                display: none;
-                                padding: 20px;
-                                color: white !important;
-                                transition: all 2s ease;
-                                h4{
-                                    cursor: pointer;
-                                    font-size: 1rem;
-                                }
-                                .btn-primary {
-                                    background-color: transparent;
-                                    font-size: 1rem;
-                                    border: none;
-                                    a{
-                                        color: white !important;
-                                    }
-                                }
-                                .btn-primary:hover{
-                                    border:$darkPrimary 1px solid ;
-                                }
-                            }
-                            .overlayLeft{
-                                width: 0;
-                                left:0;
-                                top:0;
-                                height: 100%;
-                               
-                            }
-                        }
-                        .card:hover .overlayLeft {
-                                width: 100%;
-                                display: block;
-                                background-color: rgba($color: #000000, $alpha: 0.9);
-                                z-index: 1;
-                                position: absolute;
-                                top: 0px;
-                                width: 100%;
-                                height: 100%;
-                                
-                        }
-                    }
-                }
-                .contact{
-                    background-color: rgba($color: rgb(47, 46, 46), $alpha: 0.2);
-                    box-shadow: rgba($color: #000000, $alpha: 0.9) 0px 3px 14px;
-                    color: white;
-                    width: 100%;
-                    padding: 20px !important;
-                    margin-bottom: 20px;
-                    padding-left: 10px;
-                    h6{
-                        font-family: Lucida Handwriting;
-                        font-size: 12px;
-                    }
-                    h2{
-                        font-weight: bold;
-                        font-family: "Operator Mono";
-                        font-style: italic;
-                    }
-                    h4{
-                        font-family:"Josefin sans";
-                        margin-top: 50px;
-                        font-size: 20px;
-                    }
-                    .row{
-                        margin-top: 40px;
-                        .col {
-                            a {
-                                font-size: 2rem;
-                                color: white;
-                                justify-content: center;
-                                align-items: center;
-                                display: flex;
-                            }
-                        }
-                    }
-                    .btn-primary {
-                        background-color:$darkPrimary;
-                        border: 1px solid white;
-                        color: white;
-                        border-radius: 0px;
-                    }
-                    .form-group{
-                        .form-control {
-                            background-color: transparent;
-                            border-radius: 0px;
-                            color: white;
-                        }
-
-                    }
-                    
-                }
+        .about{
+          img{
+            width: 100%;
+            margin: auto;
+            justify-content: center;
+            display: flex;
+          }
+          .row{
+            margin-left: 20px;
+            margin-top: 20px;
+            .myinfos{
+              line-height: 2.75;
             }
+            .btn-primary {
+              background-color: #3f51b5;
+              border:none;
+            }
+          }
         }
-        
+      }
     }
-
+  }
 }
-
-
-
-
 
 body.light {
-    background-color: #f8f9fa !important;
-    .navbar {
-        background-color:rgba($color:white, $alpha: 1);
-        box-shadow: rgba(14, 14, 14, 0.3) 1px 4px 6px;
-        height: 80px;
-        position: relative;
-        width: 100%;
-        z-index: 1;
-        >div {
+  background-color: #f0f2f5 !important;
+  .navbar {
+    background-color: rgba($color: white, $alpha: 1);
+    box-shadow: rgba(14, 14, 14, 0.3) 1px 4px 6px;
+    height: 80px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    > div {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+      a {
+        color: #252525;
+        font-family: "Operator Mono";
+        font-size: 1.5rem;
+        text-transform: uppercase;
+      }
+      .nav-links {
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        width: 300px;
+        li {
+          i {
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
             display: flex;
-            width: 100%;
-            justify-content: space-between;
+            color: black;
+            justify-content: center;
             align-items: center;
-            a{
-                color: #252525;
-                font-family: "Operator Mono";
-                font-size: 1.5rem;
-                text-transform: uppercase;
-            }
-            .nav-links{
-                display: flex;
-                list-style: none;
-                justify-content: space-around;
-                width: 300px;
-                li {
-                    i{
-                        width: 25px;
-                        height: 25px;
-                        border-radius: 50%;
-                        display: flex;
-                        color: black;
-                        justify-content: center;
-                        align-items: center;
-                        text-align: center;
-                        margin-top: 10px;
-                        cursor: pointer;
-                        margin: 10px;
-                    }
-                    button{
-                        outline: none;
-                        color: #252525;
-                        background-color: transparent;
-                        border: none;
-                        cursor: pointer;
-                        margin-top: 10px;
-                    }
-                    img{
-                        width: 45px;
-                        height: 45px;
-                        border-radius: 50%;
-                    }
-                }
-            }
+            text-align: center;
+            margin-top: 10px;
+            cursor: pointer;
+            margin: 10px;
+          }
+          button {
+            outline: none;
+            color: #252525;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+          }
+          img {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+          }
         }
+      }
     }
-    
-    
-    
-    .row.slider{
-        font-family: "Operator mono";
-        font-style: italic;
-        font-weight: bold;
-        margin-top: 20px;
-        background-color:rgba($color:white, $alpha: 1);
+  }
+
+  .row.slider {
+    font-family: "Operator mono";
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: rgba($color: white, $alpha: 1);
+    box-shadow: rgba(14, 14, 14, 0.3) 1px 4px 6px;
+    width: 100%;
+    height: 60vh;
+    margin-left: 0px;
+    .col-md-6 {
+        svg {
+            width: 65%;
+            height: 100%;
+            margin-left: 20%;
+            // box-shadow: black 1px 4px 16px;
+            filter: drop-shadow( rgba(14, 14, 14, .9) 1px 2px 3px);
+            .st0 {
+              fill: #e6e6e6;
+            }
+            .st1 {
+              opacity: 0.1;
+              enable-background: new;
+            }
+            .st2 {
+              fill: #3f3d56;
+            }
+            .st3 {
+              fill: #f2f2f2;
+            }
+            .st4 {
+              fill: $darkPrimary;
+            }
+            .st5 {
+              fill: #2f2e41;
+            }
+            .st6 {
+              fill: #ffb8b8;
+            }
+          }
+      img {
+        width: 70%;
+        height: 100%;
+        padding: 20px;
+        filter: drop-shadow(black 0px 3px 3px);
+      }
+      h1 {
+        color: #252525;
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+        margin-top: 50px;
+        line-height: 1.75;
+      }
+
+      button {
+        text-align: center;
+        border: 1px solid #252525;
+        color: #252525;
+        margin-top: 50px;
+        width: 100px;
+        padding: 15px;
+        font-family: Lucida Handwriting;
+        position: absolute;
+        left: 40%;
+      }
+    }
+  }
+
+  .row.main {
+    margin-top: 20px;
+    margin-left: 0px;
+    background-color: transparent;
+    .col-md-4 {
+      width: 90%;
+      color: #252525 !important;
+      margin-top: 0px;
+      margin-left: -15px;
+
+      ul {
+        background-color: rgba($color: white, $alpha: 1);
         box-shadow: rgba(14, 14, 14, 0.3) 1px 4px 6px;
         width: 100%;
-        height: 60vh;
-        margin-left:0px;
-        .col-md-6{
-            svg{
-                width: 100%;
-                height: 100%;
-                .cls-1{fill:#252525;}
-                .cls-2{fill:#3f3d56;}
-                .cls-3{fill:$lightPrimary}
-                .cls-4{fill:#2f2e41;}
-                .cls-5{fill:#ffb9b9;}
-                .cls-6{opacity:0.1;isolation:isolate;}
-                .cls-7{fill:#575a89;}
-               
-            }
-            
-            h1{
-                color: #252525;
-                width: 100%;
-                text-align: center;
-                font-size: 25px;
-                margin-top: 50px;
-                line-height: 1.75;
-            }
-            
-            button{
-                text-align: center;
-                border: 1px solid #252525;
-                color: #252525;
-                margin-top: 50px;
-                width: 100px;
-                padding: 15px;
-                font-family: Lucida Handwriting;
-                position: absolute;
-                left: 40%;
-            }
+        height: auto;
+        padding: 20px 30px;
+        color: black !important;
+        list-style-type: "#";
+        li {
+          margin-top: 20px;
+          color: black !important;
+          font-family: "Josefin sans";
+          a {
+            color: black !important;
+          }
         }
+      }
     }
-    
-    .row.main{
-        margin-top: 20px;
-        margin-left: 0px;
-        background-color: transparent;
-        .col-md-4{
-            width: 90%;
-            color: #252525 !important;
-            margin-top: 0px;
-            margin-left: -15px;
-            
-            ul {
-                background-color:rgba($color:white, $alpha: 1);
-                box-shadow: rgba(14, 14, 14, 0.3) 1px 4px 6px;
-                width: 100%;
-                height: auto;
-                padding: 20px 30px;
-                color: black !important;
-                list-style-type: '#';
-                li {
-                    margin-top: 20px;
-                    color: black !important;
-                    font-family: "Josefin sans";
-                    a{
-                        color: black !important;
-                    }
-                }
+    .col-md-8 {
+      .itro {
+        background-color: rgba($color: white, $alpha: 1);
+        box-shadow: rgba(14, 14, 14, 0.3) 1px 4px 6px;
+        color: #252525;
+        // background-color: red;
+        width: 100%;
+        padding: 20px;
+        margin-bottom: 20px;
+        h6 {
+          font-family: Lucida Handwriting;
+          font-size: 12px;
+        }
+        h2 {
+          font-weight: bold;
+          font-family: "Operator mono";
+          font-style: italic;
+        }
+        p {
+          margin-top: 40px;
+          font-family: "josefin sans";
+          text-transform: capitalize;
+          line-height: 2.75;
+        }
+      }
+      .skills {
+        transition: all 2s ease-in !important;
+        -webkit-transition: all 2s ease-out !important;
+        color: #252525;
+        width: 100%;
+        padding: 20px;
+        margin-bottom: 20px;
+        background-color: rgba($color: white, $alpha: 1);
+        box-shadow: rgba(14, 14, 14, 0.3) 1px 4px 6px;
+        h6 {
+          font-family: Lucida Handwriting;
+          font-size: 12px;
+        }
+        h2 {
+          font-weight: bold;
+          font-family: "operator mono";
+          font-style: italic;
+        }
+        .list-of-skills {
+          margin-top: 40px;
+          .col {
+            background-color: $lightPrimary;
+            color: white;
+            width: auto !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40px;
+            margin: 5px;
+            border-radius: 10px;
+            font-family: "Josefin sans";
+            padding: 20px;
+            box-shadow: rgba(37, 37, 37, 0.22) 1px 4px 16px;
+            i {
+              color: white;
+              margin-left: 10px;
             }
+          }
         }
-        .col-md-8 {
-               
-                .itro{
-                    background-color:rgba($color:white, $alpha: 1);
-                    box-shadow: rgba(14, 14, 14, 0.3) 1px 4px 6px;
-                    color: #252525;
-                    // background-color: red;
-                    width: 100%;
-                    padding: 20px;
-                    margin-bottom: 20px;
-                    h6{
-                        font-family: Lucida Handwriting;
-                        font-size: 12px;
-                    }
-                    h2{
-                        font-weight: bold;
-                        font-family: "Operator mono";
-                        font-style: italic;
-                    }
-                    p{
-                        margin-top: 40px;
-                        font-family: "josefin sans";
-                        text-transform: capitalize;
-                        line-height: 2.75;
-                    }
+      }
+      .works {
+        background-color: rgba($color: white, $alpha: 1);
+        box-shadow: rgba(14, 14, 14, 0.3) 1px 4px 6px;
+        color: #252525;
+        width: 100%;
+        padding: 20px !important;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        h6 {
+          font-family: Lucida Handwriting;
+          font-size: 12px;
+        }
+        h2 {
+          font-weight: bold;
+          font-family: "operator mono";
+          font-style: italic;
+        }
+        .row {
+          margin: 0;
+          padding: 0;
+          margin-top: 40px;
+          .card {
+            margin-bottom: 10px;
+            border-radius: 0px;
+            border: none;
+            box-shadow: rgba(37, 37, 37, 0.22) 1px 4px 16px;
+            font-family: "Josefin sans";
+            img {
+              width: 100%;
+              height: 150px;
+            }
+            h3 {
+              color: white;
+              background-color: $lightPrimary;
+              padding: 10px;
+              position: absolute;
+              top: 0px;
+              font-size: 14px;
+              width: 70px;
+            }
+            .overlay {
+              display: none;
+              padding: 20px;
+              h4 {
+                cursor: pointer;
+                font-size: 1rem;
+              }
+              .btn-primary {
+                background-color: transparent;
+                font-size: 1rem;
+                border: none;
+                a {
+                  color: white !important;
                 }
-                .skills {
-                    transition: all 2s ease-in !important;
-                    -webkit-transition: all 2s ease-out !important;
-                    color: #252525;
-                    width: 100%;
-                    padding: 20px;
-                    margin-bottom: 20px;
-                    background-color:rgba($color:white, $alpha: 1);
-                    box-shadow: rgba(14, 14, 14, 0.3) 1px 4px 6px;
-                    h6{
-                        font-family: Lucida Handwriting;
-                        font-size: 12px;
-                    }
-                    h2{
-                        font-weight: bold;
-                        font-family: "operator mono";
-                        font-style: italic;
-                    }
-                    .list-of-skills {
-                        margin-top: 40px;
-                        .col {
-                            background-color:$lightPrimary;
-                            color: white;
-                            width:auto !important;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            height: 40px;
-                            margin: 5px;
-                            border-radius: 10px;
-                            font-family: "Josefin sans";
-                            padding: 20px;
-                            box-shadow: rgba(37, 37, 37 , 0.22) 1px 4px 16px;
-                            i {
-                                color: white;
-                                margin-left: 10px;
-                            }
-                        }
-                    }
-                }
-                .works {
-                    background-color:rgba($color:white, $alpha: 1);
-                    box-shadow: rgba(14, 14, 14, 0.3) 1px 4px 6px;
-                    color: #252525;
-                    width: 100%;
-                    padding: 20px !important;
-                    margin-bottom: 20px;
-                    padding-left: 10px;
-                    h6{
-                        font-family: Lucida Handwriting;
-                        font-size: 12px;
-                    }
-                    h2{
-                        font-weight: bold;
-                        font-family: "operator mono";
-                        font-style: italic;
-                    }
-                    .row{
-                        margin: 0;
-                        padding: 0;
-                        margin-top: 40px;
-                        .card {
-                            margin-bottom: 10px;
-                            border-radius: 0px;
-                            border: none;
-                            box-shadow: rgba(37, 37, 37 , 0.22) 1px 4px 16px;
-                            font-family: "Josefin sans";
-                            img {
-                                width: 100%;
-                                height: 150px;
-                            }
-                            h3{
-                                color: white;
-                                background-color: $lightPrimary;
-                                padding: 10px;
-                                position: absolute;
-                                top: 0px;
-                                font-size: 14px;
-                                width: 70px; 
-                            }
-                            .overlay {
-                                display: none;
-                                padding: 20px;
-                                h4{
-                                    cursor: pointer;
-                                    font-size: 1rem;
-                                }
-                                .btn-primary {
-                                    background-color: transparent;
-                                    font-size: 1rem;
-                                    border: none;
-                                    a{
-                                        color: white !important;
-                                    }
-                                }
-                                .btn-primary:hover{
-                                    border: #495057 1px solid ;
-                                }
-                            }
-                        }
-                        .card:hover .overlay {
-                                display: block;
-                                background-color: rgba($color: #000000, $alpha: 0.9);
-                                color: white;
-                                z-index: 1;
-                                position: absolute;
-                                top: 0px;
-                                width: 100%;
-                                height: 100%;
-                        }
-                    }
-                }
-                .contact{
-                    background-color:rgba($color:white, $alpha: 1);
-                    box-shadow: rgba(14, 14, 14, 0.3) 1px 4px 6px;
-                    color:#252525;
-                    width: 100%;
-                    padding: 20px !important;
-                    margin-bottom: 20px;
-                    padding-left: 10px;
-                    h6{
-                        font-family: Lucida Handwriting;
-                        font-size: 12px;
-                    }
-                    h2{
-                        font-weight: bold;
-                        font-family: "operator mono";
-                        font-style: italic;
-                    }
-                    h4{
-                        font-family: "Josefin sans";
-                        margin-top: 50px;
-                        font-size: 20px;
-                    }
-                    .row{
-                        margin-top: 40px;
-                        font-family: "josefin sans";
-                        .col {
-                            
-                            a {
-                                
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                                font-size: 2rem;
-                                color: black;
-                                margin: auto;
-                            }
-                        }
-                    }
-                    
-                    .btn-primary {
-                        background-color: $lightPrimary !important;
-                        border: none;
-                        color: white;
-                        box-shadow: rgba(37, 37, 37 , 0.22) 1px 4px 16px;
-                        border-radius: 0px;
-                    }
-                    .form-group{
-                        .form-control {
-                            background-color: transparent;
-                            border-radius: 0px;
-                            color: black;
-                            border-color: #252525;
-                        }
+              }
+              .btn-primary:hover {
+                border: #495057 1px solid;
+              }
+            }
+          }
+          .card:hover .overlay {
+            display: block;
+            background-color: rgba($color: #000000, $alpha: 0.9);
+            color: white;
+            z-index: 1;
+            position: absolute;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+      .contact {
+        background-color: rgba($color: white, $alpha: 1);
+        box-shadow: rgba(14, 14, 14, 0.3) 1px 4px 6px;
+        color: #252525;
+        width: 100%;
+        padding: 20px !important;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        h6 {
+          font-family: Lucida Handwriting;
+          font-size: 12px;
+        }
+        h2 {
+          font-weight: bold;
+          font-family: "operator mono";
+          font-style: italic;
+        }
+        h4 {
+          font-family: "Josefin sans";
+          margin-top: 50px;
+          font-size: 20px;
+        }
+        .row {
+          margin-top: 40px;
+          font-family: "josefin sans";
+          .col {
+            a {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-size: 2rem;
+              color: black;
+              margin: auto;
+            }
+          }
+        }
 
-                    }
-                    
-                }
+        .btn-primary {
+          background-color: $lightPrimary !important;
+          border: none;
+          color: white;
+          box-shadow: rgba(37, 37, 37, 0.22) 1px 4px 16px;
+          border-radius: 0px;
         }
-        
+        .form-group {
+          .form-control {
+            background-color: transparent;
+            border-radius: 0px;
+            color: black;
+            border-color: #252525;
+          }
+        }
+      }
+      .about{
+        img{
+          width: 100%;
+          margin: auto;
+          justify-content: center;
+          display: flex;
+          filter: drop-shadow(rgba(14, 14, 14, .9) 1px 2px 3px);
+        }
+        .row{
+          margin-left: 20px;
+          margin-top: 20px;
+          .myinfos{
+            line-height: 2.75;
+          }
+          .btn-primary {
+            background-color: #3f51b5;
+            border:none;
+          }
+        }
+      }
     }
-
+  }
 }
-
 
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 8px;
 }
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #ffffff;
 }
 ::-webkit-scrollbar-thumb {
-    background: $darkPrimary;
+  background: $darkPrimary;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+  background: #555;
 }

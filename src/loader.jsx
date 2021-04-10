@@ -4,7 +4,7 @@ import Styled from 'styled-components'
 export default function Loader() {
     return (
         <Load className="Loading">
-            <i class="fa fa-spinner" aria-hidden="true"></i>
+            <i className="fa fa-spinner" aria-hidden="true"></i>
         </Load>
     )
 }

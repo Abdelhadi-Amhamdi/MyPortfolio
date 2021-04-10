@@ -15,8 +15,8 @@ const Works = () => {
                     return(
                             <div className="col-md-4" key={pro.id}>
                                 <div className="card">
-                                    <img src={pro.img} alt=""/>
-                                    <h3>{pro.type}</h3>
+                                    <img src={pro.img} alt="project" loading="lazy"/>
+                                    <h3>{pro.type}</h3> 
                                     <div className="overlay overlayLeft">
                                         <h4 className="card-title" to="/item">{pro.title}</h4>
                                         <p className="card-text">{pro.tech}</p>

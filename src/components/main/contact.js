@@ -14,9 +14,9 @@ const Contact = () => {
                 </div>
                 <div className="col-md-6 form-group">
                     <label >Name</label>
-                    <input type="text" className="form-control" placeholder="name..." />
+                    <input type="text" className="form-control" placeholder="Jhon Deo" />
                     <label >Email</label>
-                    <input type="email" className="form-control" placeholder="email..." />
+                    <input type="email" className="form-control" placeholder="example@email.com" />
                     <label >Message</label>
                     <textarea  cols="43" rows="4" className="form-control" placeholder="message..."></textarea>
                     <button className="btn btn-primary btn-block mt-2">Say Hi</button>

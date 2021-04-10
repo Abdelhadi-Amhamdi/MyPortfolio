@@ -3,7 +3,7 @@ body.dark {
     background-image: url('../img/ascii-pattern-tall.svg');
 }
 body.light {
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
     background-image: url('../img/ascii-pattern-tall.svg');
 }
 

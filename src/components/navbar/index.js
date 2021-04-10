@@ -1,12 +1,12 @@
 import React from 'react'
-import DesktopNav from './DesktopNav'
+import Desktop_nav from './DesktopNav'
 
 
 const Navbar = () => {
     return (
         <div className="nav">
             <div className="navbar">
-                <DesktopNav />
+                <Desktop_nav />
             </div>
         </div>
     )

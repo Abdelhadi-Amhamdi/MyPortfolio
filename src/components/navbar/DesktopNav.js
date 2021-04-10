@@ -6,10 +6,10 @@ const  DesktopNav = () => {
     
     
     return (
-        <div>
+        <div className="content">
             <Router>
                 <Link to='/' className="logo">
-                    Abdelhadi Amhamdi
+                    Abdelhadi_Amhamdi
                 </Link>
             </Router>
             <NavLinks />
