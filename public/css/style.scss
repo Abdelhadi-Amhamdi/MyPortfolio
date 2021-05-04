@@ -2,19 +2,14 @@
 $lightPrimary: #dc3545;
 
 $darkPrimary: #3f51b5;
-// @import '../fonts/operator-mono-font-master/Operator\ Mono\ Bold\ Regular.otf';
-// @import '../fonts/operator-mono-font-master/Operator\ Mono\ Book\ Italic.otf';
-// @import '../fonts/operator-mono-font-master/Operator\ Mono\ Book\ Regular.otf';
-// @import '../fonts/JosefinSans/JosefinSans-Italic-VariableFont_wght.ttf';
-// @import '../fonts/JosefinSans/JosefinSans-VariableFont_wght.ttf';
 
 @font-face {
   font-family: Operator Mono;
-  src: url(https://fonts.googleapis.com/css2?family=Space+Mono&display=swap);
+  src: url(./fonts/operator-mono-font-master/Operator\ Mono\ Bold\ Regular.otf);
 }
 @font-face {
   font-family: Josefin sans;
-  src: url(https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap);
+  src: url(./fonts/JosefinSans/static/JosefinSans-Medium.ttf);
 }
 
 body.dark {
