@@ -1,5 +1,15 @@
+@font-face {
+  font-family: Operator Mono;
+  src: url(https://fonts.googleapis.com/css2?family=Space+Mono&display=swap);
+}
+
+@font-face {
+  font-family: Josefin sans;
+  src: url(https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap);
+}
+
 body.dark {
-  font-family: "Josefin sans" !important;
+  font-family: "Operator Mono" !important;
 }
 
 body.dark .nav {
@@ -31,7 +41,7 @@ body.dark .nav .navbar > div {
 }
 
 body.dark .nav .navbar > div a {
-  font-family: "Operator mono";
+  font-family: "Operator Mono";
   font-style: italic;
   font-size: 1.5rem;
   color: white !important;
@@ -436,6 +446,7 @@ body.dark .row.main .col-md-8 #container .about .row .btn-primary {
 
 body.light {
   background-color: #f0f2f5 !important;
+  font-family: "Operator Mono";
 }
 
 body.light .navbar {
@@ -466,6 +477,7 @@ body.light .navbar > div a {
   font-family: "Operator Mono";
   font-size: 1.5rem;
   text-transform: uppercase;
+  font-style: italic;
 }
 
 body.light .navbar > div .nav-links {
