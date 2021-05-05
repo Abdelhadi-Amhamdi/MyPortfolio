@@ -12,7 +12,7 @@ export default function About() {
                         <div className="col-md-12">
                             <div className="myinfos">
                                 <div>Birthday : <span>18-06-2000</span></div>
-                                <div>Phone : <span>+212 624 206 23</span></div>
+                                <div>Phone : <span>+212 621 420 623</span></div>
                             </div>
                         </div>
                         <div className="col-md-12">
