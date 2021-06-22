@@ -158,7 +158,7 @@ export const works = {
       gitUrl: "https://github.com/Abdelhadi-Amhamdi/Javascript-todo-app",
     },
     {
-      id: 5,
+      id: 4,
       type: "dev",
       img: "./img/works/recipes.jpg",
       title: "recpies",
@@ -169,7 +169,7 @@ export const works = {
       gitUrl: "https://github.com/Abdelhadi-Amhamdi/React-App-1",
     },
     {
-      id: 6,
+      id: 5,
       type: "dev",
       img: "./img/works/Portfolio.jpg",
       title: "portfolio",
@@ -180,7 +180,7 @@ export const works = {
       gitUrl: "https://github.com/Abdelhadi-Amhamdi/PORTFOLIO",
     },
     {
-      id: 8,
+      id: 6,
       type: "dev",
       img: "./img/works/sienceHumman.jpg",
       title: "Sience Humman",
@@ -189,7 +189,7 @@ export const works = {
       // url:'',
     },
     {
-      id: 9,
+      id: 7,
       type: "dev",
       img: "./img/works/pets.jpg",
       title: "Pets",
@@ -200,9 +200,9 @@ export const works = {
         "Node js , express , mongodb , react js , scss , html , jwt , react router dom , react hooks",
     },
     {
-      id: 10,
+      id: 8,
       type: "dev",
-      img: "./img/works/quran.PNG",
+      img: "./img/works/Quran.jpg",
       title: "Quran Extetion",
       tech: "JAVASCRIPT",
       tools:
@@ -211,9 +211,9 @@ export const works = {
       gitUrl: "https://github.com/Abdelhadi-Amhamdi/Quran-Extension",
     },
     {
-      id: 11,
+      id: 9,
       type: "dev",
-      img: "./img/works/plants.PNG",
+      img: "./img/works/plants.jpg",
       title: "Plants Store",
       tech: "JAVASCRIPT",
       tools:
