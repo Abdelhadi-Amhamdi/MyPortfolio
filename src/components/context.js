@@ -199,6 +199,30 @@ export const works = {
       tools:
         "Node js , express , mongodb , react js , scss , html , jwt , react router dom , react hooks",
     },
+    {
+      id: 10,
+      type: "dev",
+      img: "./img/works/quran.PNG",
+      title: "Quran Extetion",
+      tech: "JAVASCRIPT",
+      tools:
+        "HTML , CSS , JAVASCRIPT",
+      git: "Github",
+      gitUrl: "https://github.com/Abdelhadi-Amhamdi/Quran-Extension",
+    },
+    {
+      id: 11,
+      type: "dev",
+      img: "./img/works/plants.PNG",
+      title: "Plants Store",
+      tech: "JAVASCRIPT",
+      tools:
+        "HTML , CSS , JAVASCRIPT , BOOTSTRAP",
+      git: "Github",
+      gitUrl: "",
+      live :"Live",
+      url :"https://vigilant-bardeen-46f09b.netlify.app/"
+    },
   ],
 };
 
