@@ -28,7 +28,7 @@ export const SocilLinks = [
   {
     id: 2,
     icon: <SiInstagram />,
-    url: "https://www.instagram.com/am555155/",
+    url: "https://www.instagram.com/__ab__am/",
   },
   {
     id: 3,
@@ -44,7 +44,7 @@ export const SocilLinks = [
 
 export const heroInfo = {
   name: "Hi I'm Abdelhadi",
-  hero1: "I'm a full stack developer and web designer",
+  hero1: "I'm a front-end developer and web designer",
 };
 
 export const aside = {
@@ -141,8 +141,8 @@ export const works = {
       img: "./img/works/newpro.jpg",
       title: "new pro",
       tech: "javascript",
-      live: "live",
-      url: "https://infallible.tk/",
+//       live: "live",
+//       url: "",
       git: "Github",
       gitUrl: "https://github.com/Abdelhadi-Amhamdi/new-pro",
     },
@@ -230,7 +230,7 @@ export const contact = {
   minititle: "text me",
   title: "Contact Me :",
   name: "Abdelhadi Amhamdi",
-  phone: "212621420623",
+  phone: "+212621420623",
   email: "aamhamdi943@gmail.com",
 };
 
