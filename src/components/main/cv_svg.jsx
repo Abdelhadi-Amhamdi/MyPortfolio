@@ -1,8 +1,8 @@
 import React from "react";
 
-export default function Cv_svg() {
+const  Cvsvg = () => {
   return (
-    <div>
+    <>
       <svg
         version="1.1"
         id="a0b12775-6e5f-4473-9cb3-a305020561f5"
@@ -175,6 +175,8 @@ export default function Cv_svg() {
           </g>
         </g>
       </svg>
-    </div>
+    </>
   );
 }
+
+export default Cvsvg

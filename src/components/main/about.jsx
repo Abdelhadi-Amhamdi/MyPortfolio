@@ -1,12 +1,12 @@
 import React from 'react'
-import Cv_svg from './cv_svg'
+import Cvsvg from './cv_svg'
 
 export default function About() {
     return (
         <div className="about">
             <div className="row">
                 <div className="col-md-6">
-                    <Cv_svg />
+                    <Cvsvg />
                 </div>
                 <div className="col-md-6">
                    <div className="row">
