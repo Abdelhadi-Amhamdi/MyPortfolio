@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function cv_svg() {
+export default function Cv_svg() {
   return (
     <div>
       <svg
