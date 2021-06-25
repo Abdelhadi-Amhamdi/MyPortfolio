@@ -2,50 +2,54 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    
-   
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
       content="welcome in my portfolio i hope you enjoy"
     />
-  
+
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/rests.css">
-    <link rel="stylesheet" href="./css/responsive.css">
-    <link rel="shortcut icon" href="./logo.svg">
-    <link rel="stylesheet" href="./css/font-awesome.min.css">
-    
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/rests.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="shortcut icon" href="./logo.svg" />
+    <link rel="stylesheet" href="./css/font-awesome.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
     <!-- fonts -->
-  
+
     <title>Abdelhadi_Amhamdi</title>
-    
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    
-<script src="./js/jquery-3.3.1.min.js"></script>
-<script src="./js/bootstrap.min.js"></script>
 
-<script>
-  $(document).ready(()=> {
-    $(window).scroll(()=> {
-      var top = $(window).scrollTop();
-      const nav = $('.navbar');
-      if(top >= 100 ){
-        nav.addClass('change');
-      }else if(nav.hasClass('change')){
-        nav.removeClass('change')
-      }
-    })
-  })
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
 
-  
-      
-</script>
+    <script>
+      $(document).ready(() => {
+        $(window).scroll(() => {
+          var top = $(window).scrollTop();
+          const nav = $(".navbar");
+          if (top >= 100) {
+            nav.addClass("change");
+          } else if (nav.hasClass("change")) {
+            nav.removeClass("change");
+          }
+        });
+      });
+    </script>
   </body>
 </html>

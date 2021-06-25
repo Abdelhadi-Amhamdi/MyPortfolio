@@ -1,11 +1,12 @@
 import React from 'react'
+import Cv_svg from './cv_svg'
 
 export default function About() {
     return (
         <div className="about">
             <div className="row">
                 <div className="col-md-6">
-                    <img src="./img/undraw_online_cv_qy9w.svg" alt="cv"/>
+                    <Cv_svg />
                 </div>
                 <div className="col-md-6">
                    <div className="row">
@@ -24,7 +25,10 @@ export default function About() {
                     </div>
                 </div>
                 <div className="col-md-4">
-                    <div className="btn btn-primary btn-block offset-4">Download My Cv</div>
+                    <a 
+                        className="btn btn-primary btn-block offset-4" 
+                        href="./resume.pdf"
+                    >My Resume</a>
                 </div>
             </div>
         </div>

@@ -1,19 +1,10 @@
 // $darkPrimary: #dc3545;
 $lightPrimary: #dc3545;
 
-$darkPrimary: #3f51b5;
-
-@font-face {
-  font-family: Operator Mono;
-  src: url(./fonts/operator-mono-font-master/Operator\ Mono\ Bold\ Regular.otf);
-}
-@font-face {
-  font-family: Josefin sans;
-  src: url(./fonts/JosefinSans/static/JosefinSans-Medium.ttf);
-}
+$darkPrimary: #495057;
 
 body.dark {
-  font-family: "Operator Mono" !important;
+  font-family: 'IBM Plex Mono', monospace !important;
   .nav {
     width: 100%;
     z-index: 2;
@@ -30,7 +21,7 @@ body.dark {
         justify-content: space-between;
         align-items: center;
         a {
-          font-family: "Operator Mono";
+          font-family: 'IBM Plex Mono', monospace !important;
           font-style: italic;
           font-size: 1.5rem;
           color: white !important;
@@ -78,7 +69,7 @@ body.dark {
 
   .row.slider {
     margin-top: 20px;
-    background-color: rgba($color: #212529,  $alpha: 0.2);
+    background-color: rgba($color: #212529, $alpha: 0.2);
     box-shadow: rgba($color: #000000, $alpha: 0.9) 0px 3px 14px;
     width: 100%;
     height: 60vh;
@@ -112,14 +103,14 @@ body.dark {
           fill: #ffb8b8;
         }
       }
-    //   img {
-    //     width: 70%;
-    //     height: 100%;
-    //     padding: 20px;
-    //   }
+      //   img {
+      //     width: 70%;
+      //     height: 100%;
+      //     padding: 20px;
+      //   }
       h1 {
         color: white;
-        font-family: "Operator Mono";
+        font-family: 'IBM Plex Mono', monospace;
         font-style: italic;
         width: 100%;
         text-align: center;
@@ -141,7 +132,7 @@ body.dark {
       margin-left: -15px;
       ul {
         margin-top: 0;
-        background-color: rgba($color: #212529 , $alpha: 0.2);
+        background-color: rgba($color: #212529, $alpha: 0.2);
         box-shadow: rgba($color: #000000, $alpha: 0.9) 0px 3px 14px;
         width: 350px;
         height: auto;
@@ -159,7 +150,7 @@ body.dark {
     .col-md-8 {
       #container {
         .itro {
-          background-color: rgba($color: #212529 , $alpha: 0.2);
+          background-color: rgba($color: #212529, $alpha: 0.2);
           box-shadow: rgba($color: #000000, $alpha: 0.9) 0px 3px 14px;
           color: white;
           width: 100%;
@@ -176,7 +167,7 @@ body.dark {
           }
           p {
             margin-top: 40px;
-            font-family: "Josefin sans";
+            font-family: 'Josefin Sans', sans-serif;
             text-transform: capitalize;
             line-height: 2.75;
             letter-spacing: 1px;
@@ -219,7 +210,7 @@ body.dark {
           }
         }
         .works {
-          background-color: rgba($color: #212529 , $alpha: 0.2);
+          background-color: rgba($color: #212529, $alpha: 0.2);
           box-shadow: rgba($color: #000000, $alpha: 0.9) 0px 3px 14px;
           color: white;
           width: 100%;
@@ -302,7 +293,7 @@ body.dark {
           }
         }
         .contact {
-          background-color: rgba($color: #212529 , $alpha: 0.2);
+          background-color: rgba($color: #212529, $alpha: 0.2);
           box-shadow: rgba($color: #000000, $alpha: 0.9) 0px 3px 14px;
           color: white;
           width: 100%;
@@ -349,22 +340,51 @@ body.dark {
             }
           }
         }
-        .about{
-          img{
+        .about {
+          svg {
             width: 100%;
             margin: auto;
             justify-content: center;
             display: flex;
+            height: 200px;
+            .st0 {
+              fill: #3f3d56;
+            }
+            .st1 {
+              fill: #f2f2f2;
+            }
+            .st2 {
+              fill: #ffffff;
+            }
+            .st3 {
+              fill: $darkPrimary;
+            }
+            .st4 {
+              fill: #2f2e41;
+            }
+            .st5 {
+              fill: #ffb8b8;
+            }
+            .st6 {
+              opacity: 0.1;
+              enable-background: new;
+            }
+            .st7 {
+              fill: #d0cde1;
+            }
+            .st8 {
+              fill: #a0616a;
+            }
           }
-          .row{
+          .row {
             margin-left: 20px;
             margin-top: 20px;
-            .myinfos{
+            .myinfos {
               line-height: 2.75;
             }
             .btn-primary {
-              background-color: #3f51b5;
-              border:none;
+              background-color: $darkPrimary;
+              border: none;
             }
           }
         }
@@ -443,35 +463,35 @@ body.light {
     height: 60vh;
     margin-left: 0px;
     .col-md-6 {
-        svg {
-            width: 65%;
-            height: 100%;
-            margin-left: 20%;
-            // box-shadow: black 1px 4px 16px;
-            filter: drop-shadow( rgba(14, 14, 14, .9) 1px 2px 3px);
-            .st0 {
-              fill: #e6e6e6;
-            }
-            .st1 {
-              opacity: 0.1;
-              enable-background: new;
-            }
-            .st2 {
-              fill: #3f3d56;
-            }
-            .st3 {
-              fill: #f2f2f2;
-            }
-            .st4 {
-              fill: $darkPrimary;
-            }
-            .st5 {
-              fill: #2f2e41;
-            }
-            .st6 {
-              fill: #ffb8b8;
-            }
-          }
+      svg {
+        width: 65%;
+        height: 100%;
+        margin-left: 20%;
+        // box-shadow: black 1px 4px 16px;
+        filter: drop-shadow(rgba(14, 14, 14, 0.9) 1px 2px 3px);
+        .st0 {
+          fill: #e6e6e6;
+        }
+        .st1 {
+          opacity: 0.1;
+          enable-background: new;
+        }
+        .st2 {
+          fill: #3f3d56;
+        }
+        .st3 {
+          fill: #f2f2f2;
+        }
+        .st4 {
+          fill: $darkPrimary;
+        }
+        .st5 {
+          fill: #2f2e41;
+        }
+        .st6 {
+          fill: #ffb8b8;
+        }
+      }
       img {
         width: 70%;
         height: 100%;
@@ -580,6 +600,7 @@ body.light {
             width: auto !important;
             display: flex;
             justify-content: center;
+            background-color: $darkPrimary;
             align-items: center;
             height: 40px;
             margin: 5px;
@@ -627,12 +648,12 @@ body.light {
             }
             h3 {
               color: white;
-              background-color: $lightPrimary;
               padding: 10px;
               position: absolute;
               top: 0px;
               font-size: 14px;
               width: 70px;
+              background-color: $darkPrimary !important;
             }
             .overlay {
               display: none;
@@ -704,7 +725,7 @@ body.light {
         }
 
         .btn-primary {
-          background-color: $lightPrimary !important;
+          background-color: $darkPrimary !important;
           border: none;
           color: white;
           box-shadow: rgba(37, 37, 37, 0.22) 1px 4px 16px;
@@ -719,23 +740,51 @@ body.light {
           }
         }
       }
-      .about{
-        img{
+      .about {
+        svg {
           width: 100%;
           margin: auto;
           justify-content: center;
           display: flex;
-          filter: drop-shadow(rgba(14, 14, 14, .9) 1px 2px 3px);
+          height: 200px;
+          .st0 {
+            fill: #3f3d56;
+          }
+          .st1 {
+            fill: #f2f2f2;
+          }
+          .st2 {
+            fill: #ffffff;
+          }
+          .st3 {
+            fill: $darkPrimary;
+          }
+          .st4 {
+            fill: #2f2e41;
+          }
+          .st5 {
+            fill: #ffb8b8;
+          }
+          .st6 {
+            opacity: 0.1;
+            enable-background: new;
+          }
+          .st7 {
+            fill: #d0cde1;
+          }
+          .st8 {
+            fill: #a0616a;
+          }
         }
-        .row{
+        .row {
           margin-left: 20px;
           margin-top: 20px;
-          .myinfos{
+          .myinfos {
             line-height: 2.75;
           }
           .btn-primary {
-            background-color: #3f51b5;
-            border:none;
+            background-color: $darkPrimary;
+            border: none;
           }
         }
       }
@@ -744,10 +793,10 @@ body.light {
 }
 
 ::-webkit-scrollbar {
-    width: 8px;
+  width: 8px;
 }
 ::-webkit-scrollbar-track {
-    background: #ffffff;
+  background: #ffffff;
 }
 ::-webkit-scrollbar-thumb {
   background: $darkPrimary;

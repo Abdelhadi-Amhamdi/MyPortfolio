@@ -1,15 +1,5 @@
-@font-face {
-  font-family: Operator Mono;
-  src: url(https://fonts.googleapis.com/css2?family=Space+Mono&display=swap);
-}
-
-@font-face {
-  font-family: Josefin sans;
-  src: url(https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap);
-}
-
 body.dark {
-  font-family: "Operator Mono" !important;
+  font-family: 'IBM Plex Mono', monospace !important;
 }
 
 body.dark .nav {
@@ -41,7 +31,7 @@ body.dark .nav .navbar > div {
 }
 
 body.dark .nav .navbar > div a {
-  font-family: "Operator Mono";
+  font-family: 'IBM Plex Mono', monospace !important;
   font-style: italic;
   font-size: 1.5rem;
   color: white !important;
@@ -125,7 +115,7 @@ body.dark .row.slider .col-md-6 svg .st3 {
 }
 
 body.dark .row.slider .col-md-6 svg .st4 {
-  fill: #3f51b5;
+  fill: #495057;
 }
 
 body.dark .row.slider .col-md-6 svg .st5 {
@@ -138,7 +128,7 @@ body.dark .row.slider .col-md-6 svg .st6 {
 
 body.dark .row.slider .col-md-6 h1 {
   color: white;
-  font-family: "Operator Mono";
+  font-family: 'IBM Plex Mono', monospace;
   font-style: italic;
   width: 100%;
   text-align: center;
@@ -203,7 +193,7 @@ body.dark .row.main .col-md-8 #container .itro h2 {
 
 body.dark .row.main .col-md-8 #container .itro p {
   margin-top: 40px;
-  font-family: "Josefin sans";
+  font-family: 'Josefin Sans', sans-serif;
   text-transform: capitalize;
   line-height: 2.75;
   letter-spacing: 1px;
@@ -235,7 +225,7 @@ body.dark .row.main .col-md-8 #container .skills .list-of-skills {
 }
 
 body.dark .row.main .col-md-8 #container .skills .list-of-skills .col {
-  background-color: #3f51b5;
+  background-color: #495057;
   color: white;
   width: 90%;
   display: -webkit-box;
@@ -307,7 +297,7 @@ body.dark .row.main .col-md-8 #container .works .row .card img {
 
 body.dark .row.main .col-md-8 #container .works .row .card h3 {
   color: white;
-  background-color: #3f51b5;
+  background-color: #495057;
   padding: 10px;
   position: absolute;
   top: 0px;
@@ -339,7 +329,7 @@ body.dark .row.main .col-md-8 #container .works .row .card .overlay .btn-primary
 }
 
 body.dark .row.main .col-md-8 #container .works .row .card .overlay .btn-primary:hover {
-  border: #3f51b5 1px solid;
+  border: #495057 1px solid;
 }
 
 body.dark .row.main .col-md-8 #container .works .row .card .overlayLeft {
@@ -407,7 +397,7 @@ body.dark .row.main .col-md-8 #container .contact .row .col a {
 }
 
 body.dark .row.main .col-md-8 #container .contact .btn-primary {
-  background-color: #3f51b5;
+  background-color: #495057;
   border: 1px solid white;
   color: white;
   border-radius: 0px;
@@ -419,7 +409,7 @@ body.dark .row.main .col-md-8 #container .contact .form-group .form-control {
   color: white;
 }
 
-body.dark .row.main .col-md-8 #container .about img {
+body.dark .row.main .col-md-8 #container .about svg {
   width: 100%;
   margin: auto;
   -webkit-box-pack: center;
@@ -428,6 +418,44 @@ body.dark .row.main .col-md-8 #container .about img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 200px;
+}
+
+body.dark .row.main .col-md-8 #container .about svg .st0 {
+  fill: #3f3d56;
+}
+
+body.dark .row.main .col-md-8 #container .about svg .st1 {
+  fill: #f2f2f2;
+}
+
+body.dark .row.main .col-md-8 #container .about svg .st2 {
+  fill: #ffffff;
+}
+
+body.dark .row.main .col-md-8 #container .about svg .st3 {
+  fill: #495057;
+}
+
+body.dark .row.main .col-md-8 #container .about svg .st4 {
+  fill: #2f2e41;
+}
+
+body.dark .row.main .col-md-8 #container .about svg .st5 {
+  fill: #ffb8b8;
+}
+
+body.dark .row.main .col-md-8 #container .about svg .st6 {
+  opacity: 0.1;
+  enable-background: new;
+}
+
+body.dark .row.main .col-md-8 #container .about svg .st7 {
+  fill: #d0cde1;
+}
+
+body.dark .row.main .col-md-8 #container .about svg .st8 {
+  fill: #a0616a;
 }
 
 body.dark .row.main .col-md-8 #container .about .row {
@@ -440,7 +468,7 @@ body.dark .row.main .col-md-8 #container .about .row .myinfos {
 }
 
 body.dark .row.main .col-md-8 #container .about .row .btn-primary {
-  background-color: #3f51b5;
+  background-color: #495057;
   border: none;
 }
 
@@ -564,7 +592,7 @@ body.light .row.slider .col-md-6 svg .st3 {
 }
 
 body.light .row.slider .col-md-6 svg .st4 {
-  fill: #3f51b5;
+  fill: #495057;
 }
 
 body.light .row.slider .col-md-6 svg .st5 {
@@ -704,6 +732,7 @@ body.light .row.main .col-md-8 .skills .list-of-skills .col {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-color: #495057;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -765,12 +794,12 @@ body.light .row.main .col-md-8 .works .row .card img {
 
 body.light .row.main .col-md-8 .works .row .card h3 {
   color: white;
-  background-color: #dc3545;
   padding: 10px;
   position: absolute;
   top: 0px;
   font-size: 14px;
   width: 70px;
+  background-color: #495057 !important;
 }
 
 body.light .row.main .col-md-8 .works .row .card .overlay {
@@ -857,7 +886,7 @@ body.light .row.main .col-md-8 .contact .row .col a {
 }
 
 body.light .row.main .col-md-8 .contact .btn-primary {
-  background-color: #dc3545 !important;
+  background-color: #495057 !important;
   border: none;
   color: white;
   -webkit-box-shadow: rgba(37, 37, 37, 0.22) 1px 4px 16px;
@@ -872,7 +901,7 @@ body.light .row.main .col-md-8 .contact .form-group .form-control {
   border-color: #252525;
 }
 
-body.light .row.main .col-md-8 .about img {
+body.light .row.main .col-md-8 .about svg {
   width: 100%;
   margin: auto;
   -webkit-box-pack: center;
@@ -881,8 +910,44 @@ body.light .row.main .col-md-8 .about img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-filter: drop-shadow(rgba(14, 14, 14, 0.9) 1px 2px 3px);
-          filter: drop-shadow(rgba(14, 14, 14, 0.9) 1px 2px 3px);
+  height: 200px;
+}
+
+body.light .row.main .col-md-8 .about svg .st0 {
+  fill: #3f3d56;
+}
+
+body.light .row.main .col-md-8 .about svg .st1 {
+  fill: #f2f2f2;
+}
+
+body.light .row.main .col-md-8 .about svg .st2 {
+  fill: #ffffff;
+}
+
+body.light .row.main .col-md-8 .about svg .st3 {
+  fill: #495057;
+}
+
+body.light .row.main .col-md-8 .about svg .st4 {
+  fill: #2f2e41;
+}
+
+body.light .row.main .col-md-8 .about svg .st5 {
+  fill: #ffb8b8;
+}
+
+body.light .row.main .col-md-8 .about svg .st6 {
+  opacity: 0.1;
+  enable-background: new;
+}
+
+body.light .row.main .col-md-8 .about svg .st7 {
+  fill: #d0cde1;
+}
+
+body.light .row.main .col-md-8 .about svg .st8 {
+  fill: #a0616a;
 }
 
 body.light .row.main .col-md-8 .about .row {
@@ -895,7 +960,7 @@ body.light .row.main .col-md-8 .about .row .myinfos {
 }
 
 body.light .row.main .col-md-8 .about .row .btn-primary {
-  background-color: #3f51b5;
+  background-color: #495057;
   border: none;
 }
 
@@ -908,7 +973,7 @@ body.light .row.main .col-md-8 .about .row .btn-primary {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #3f51b5;
+  background: #495057;
 }
 
 ::-webkit-scrollbar-thumb:hover {
