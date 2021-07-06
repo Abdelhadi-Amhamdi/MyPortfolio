@@ -132,7 +132,7 @@ export const works = {
     {
       id: 1,
       type: "dev",
-      img: "./img/works/trad7.jpg",
+      img: "./img/works/trad7.png",
       title: "traditional store",
       tech: "laravel & vue js",
       // live:'live',
@@ -146,8 +146,8 @@ export const works = {
       img: "./img/works/newpro.png",
       title: "new pro",
       tech: "javascript",
-//       live: "live",
-//       url: "",
+      live: "live",
+      url: "https://ecstatic-lewin-e6701f.netlify.app",
       git: "Github",
       gitUrl: "https://github.com/Abdelhadi-Amhamdi/new-pro",
     },
@@ -218,7 +218,7 @@ export const works = {
     {
       id: 9,
       type: "dev",
-      img: "./img/works/plants.jpg",
+      img: "./img/works/plants.png",
       title: "Plants Store",
       tech: "JAVASCRIPT",
       tools:
@@ -226,7 +226,20 @@ export const works = {
       git: "Github",
       gitUrl: "",
       live :"Live",
-      url :"https://vigilant-bardeen-46f09b.netlify.app/"
+      url :"https://plants-garden.tk"
+    },
+    {
+      id: 10,
+      type: "dev",
+      img: "./img/works/todosIonic.png",
+      title: "Todos Application",
+      tech: "Ionic ReactJs TypeScript",
+      tools:
+        "Ionic",
+      git: "Github",
+      gitUrl: "https://github.com/Abdelhadi-Amhamdi/Todos-ionic-app",
+      // live :"Live",
+      // url :""
     },
   ],
 };
