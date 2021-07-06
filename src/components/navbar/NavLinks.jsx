@@ -20,7 +20,7 @@ const NavLinks = () => {
             {SocilLinks.map(link => (
                 <li key={link.id} onClick={clickBtn}>
                     
-                    <a href={link.url}>
+                    <a href={link.url} target="_blank">
                         <i
                         activestyle={{
                             color: '#ff4136'

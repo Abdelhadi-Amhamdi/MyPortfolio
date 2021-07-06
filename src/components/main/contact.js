@@ -28,7 +28,7 @@ const Contact = () => {
                     <div className="row">
                         {SocilLinks.map(item => {
                             return(
-                            <div className="col" key={item.id}><a href={item.url}>{item.icon}</a></div>
+                            <div className="col" key={item.id}><a href={item.url} target="_blank">{item.icon}</a></div>
                             )
                         })}
                     </div>

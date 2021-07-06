@@ -21,12 +21,12 @@ const Works = () => {
                                         <h4 className="card-title" to="/item">{pro.title}</h4>
                                         <p className="card-text">{pro.tech}</p>
                                         <div className="btn btn-primary">
-                                            <a href={pro.gitUrl}>
+                                            <a href={pro.gitUrl} target="_blank">
                                                 {pro.git}
                                             </a>  
                                         </div>
                                         <div className="btn btn-primary">
-                                            <a href={pro.url}>
+                                            <a href={pro.url} target="_blank">
                                                 {pro.live}
                                             </a>  
                                         </div>

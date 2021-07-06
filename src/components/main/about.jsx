@@ -28,6 +28,7 @@ export default function About() {
                     <a 
                         className="btn btn-primary btn-block offset-4" 
                         href="./resume.pdf"
+                        target="_blank"
                     >My Resume</a>
                 </div>
             </div>
