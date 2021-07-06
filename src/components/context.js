@@ -17,6 +17,7 @@ import {
   SiReact,
   SiSass,
   SiTwitter,
+  SiIonic
 } from "react-icons/si";
 
 export const SocilLinks = [
@@ -117,6 +118,10 @@ export const skills = {
       name: "Illustrator",
       icon: <SiAdobeillustrator />,
     },
+    {
+      name: "Ionic",
+      icon: <SiIonic />,
+    },
   ],
 };
 
@@ -138,7 +143,7 @@ export const works = {
     {
       id: 2,
       type: "dev",
-      img: "./img/works/newpro.jpg",
+      img: "./img/works/newpro.png",
       title: "new pro",
       tech: "javascript",
 //       live: "live",
@@ -149,7 +154,7 @@ export const works = {
     {
       id: 3,
       type: "dev",
-      img: "./img/works/todos.jpg",
+      img: "./img/works/todos.png",
       title: "todos",
       tech: "javascript",
       // live:'live',
@@ -160,7 +165,7 @@ export const works = {
     {
       id: 4,
       type: "dev",
-      img: "./img/works/recipes.jpg",
+      img: "./img/works/recipes.png",
       title: "recpies",
       tech: "React",
       live: "live",
@@ -171,7 +176,7 @@ export const works = {
     {
       id: 5,
       type: "dev",
-      img: "./img/works/Portfolio.jpg",
+      img: "./img/works/Portfolio.png",
       title: "portfolio",
       tech: "React & scss",
       live: "live",
@@ -182,7 +187,7 @@ export const works = {
     {
       id: 6,
       type: "dev",
-      img: "./img/works/sienceHumman.jpg",
+      img: "./img/works/sienceHumman.png",
       title: "Sience Humman",
       tech: "Laravel and Vue js",
       // live:'Show',
@@ -191,7 +196,7 @@ export const works = {
     {
       id: 7,
       type: "dev",
-      img: "./img/works/pets.jpg",
+      img: "./img/works/pets.png",
       title: "Pets",
       tech: "Mern Stack",
       live:'Live',
@@ -202,7 +207,7 @@ export const works = {
     {
       id: 8,
       type: "dev",
-      img: "./img/works/Quran.jpg",
+      img: "./img/works/Quran.png",
       title: "Quran Extetion",
       tech: "JAVASCRIPT",
       tools:

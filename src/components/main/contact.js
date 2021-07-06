@@ -19,7 +19,10 @@ const Contact = () => {
                     <input type="email" className="form-control" placeholder="example@email.com" />
                     <label >Message</label>
                     <textarea  cols="43" rows="4" className="form-control" placeholder="message..."></textarea>
-                    <button className="btn btn-primary btn-block mt-2">Say Hi</button>
+                    <button className="btn btn-primary btn-block mt-2" onClick={() => {
+                       
+                        window.open('mailto:aamhamdi943@gmail.com' , "Gmail");
+                    }}>Say Hi</button>
                 </div>
                 <div className="col-md-12">
                     <div className="row">

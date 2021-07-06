@@ -15,7 +15,6 @@ const Slider = () => {
             </div>
             <div className="col-md-6">
                 <Svg />
-                {/* <img src="./img/undraw_feeling_proud_qne1.svg" alt="slideImg"/> */}
             </div>
         </div>
         </>
