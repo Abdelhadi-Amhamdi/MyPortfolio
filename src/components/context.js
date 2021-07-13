@@ -241,6 +241,19 @@ export const works = {
       // live :"Live",
       // url :""
     },
+    {
+      id: 11,
+      type: "dev",
+      img: "./img/works/manga.png",
+      title: "Manga Scarping",
+      tech: "Javascript Node js",
+      tools:
+        "Node js",
+      git: "Github",
+      gitUrl: "",
+      live :"Live",
+      url :"https://inspiring-beaver-e92137.netlify.app/"
+    },
   ],
 };
 
