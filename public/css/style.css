@@ -8,7 +8,9 @@ body.dark .nav {
 }
 
 body.dark .nav .navbar {
-  background-color: rgba(33, 37, 41, 0.1);
+  background-color: #212529;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
   -webkit-box-shadow: rgba(0, 0, 0, 0.9) 0px 3px 14px;
           box-shadow: rgba(0, 0, 0, 0.9) 0px 3px 14px;
   height: 80px;
@@ -83,7 +85,9 @@ body.dark .nav .navbar > div .nav-links li img {
 
 body.dark .row.slider {
   margin-top: 20px;
-  background-color: rgba(33, 37, 41, 0.2);
+  background-color: #212529;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
   -webkit-box-shadow: rgba(0, 0, 0, 0.9) 0px 3px 14px;
           box-shadow: rgba(0, 0, 0, 0.9) 0px 3px 14px;
   width: 100%;
@@ -152,7 +156,9 @@ body.dark .row.main .col-md-4 {
 
 body.dark .row.main .col-md-4 ul {
   margin-top: 0;
-  background-color: rgba(33, 37, 41, 0.2);
+  background-color: #212529;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
   -webkit-box-shadow: rgba(0, 0, 0, 0.9) 0px 3px 14px;
           box-shadow: rgba(0, 0, 0, 0.9) 0px 3px 14px;
   width: 350px;
@@ -171,7 +177,9 @@ body.dark .row.main .col-md-4 ul li a {
 }
 
 body.dark .row.main .col-md-8 #container .itro {
-  background-color: rgba(33, 37, 41, 0.2);
+  background-color: #212529;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
   -webkit-box-shadow: rgba(0, 0, 0, 0.9) 0px 3px 14px;
           box-shadow: rgba(0, 0, 0, 0.9) 0px 3px 14px;
   color: white;
@@ -200,9 +208,11 @@ body.dark .row.main .col-md-8 #container .itro p {
 }
 
 body.dark .row.main .col-md-8 #container .skills {
-  background-color: rgba(33, 37, 41, 0.5);
-  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 4px;
-          box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 4px;
+  background-color: #212529;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.9) 0px 3px 14px;
+          box-shadow: rgba(0, 0, 0, 0.9) 0px 3px 14px;
   color: white;
   width: 100%;
   padding: 20px;
@@ -249,7 +259,9 @@ body.dark .row.main .col-md-8 #container .skills .list-of-skills .col i {
 }
 
 body.dark .row.main .col-md-8 #container .works {
-  background-color: rgba(33, 37, 41, 0.2);
+  background-color: #212529;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
   -webkit-box-shadow: rgba(0, 0, 0, 0.9) 0px 3px 14px;
           box-shadow: rgba(0, 0, 0, 0.9) 0px 3px 14px;
   color: white;
@@ -351,7 +363,9 @@ body.dark .row.main .col-md-8 #container .works .row .card:hover .overlayLeft {
 }
 
 body.dark .row.main .col-md-8 #container .contact {
-  background-color: rgba(33, 37, 41, 0.2);
+  background-color: #212529;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
   -webkit-box-shadow: rgba(0, 0, 0, 0.9) 0px 3px 14px;
           box-shadow: rgba(0, 0, 0, 0.9) 0px 3px 14px;
   color: white;
@@ -474,7 +488,7 @@ body.dark .row.main .col-md-8 #container .about .row .btn-primary {
 
 body.light {
   background-color: #f0f2f5 !important;
-  font-family: "Operator Mono";
+  font-family: "IBM Plex Mono", monospace !important;
 }
 
 body.light .navbar {
@@ -502,9 +516,9 @@ body.light .navbar > div {
 
 body.light .navbar > div a {
   color: #252525;
-  font-family: "Operator Mono";
+  font-family: "IBM Plex Mono", monospace !important;
   font-size: 1.5rem;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-style: italic;
 }
 
@@ -554,7 +568,7 @@ body.light .navbar > div .nav-links li img {
 }
 
 body.light .row.slider {
-  font-family: "Operator mono";
+  font-family: "IBM Plex Mono", monospace !important;
   font-style: italic;
   font-weight: bold;
   margin-top: 20px;
@@ -572,6 +586,11 @@ body.light .row.slider .col-md-6 svg {
   margin-left: 20%;
   -webkit-filter: drop-shadow(rgba(14, 14, 14, 0.9) 1px 2px 3px);
           filter: drop-shadow(rgba(14, 14, 14, 0.9) 1px 2px 3px);
+}
+
+body.light .row.slider .col-md-6 svg g#head {
+  -webkit-transform-origin: center;
+          transform-origin: center;
 }
 
 body.light .row.slider .col-md-6 svg .st0 {
@@ -603,40 +622,33 @@ body.light .row.slider .col-md-6 svg .st6 {
   fill: #ffb8b8;
 }
 
-body.light .row.slider .col-md-6 svg #head {
-  -webkit-animation: move 5s infinite linear;
-          animation: move 5s infinite linear;
-  -webkit-transform-origin: center;
-          transform-origin: center;
-}
-
 @-webkit-keyframes move {
   0% {
-    -webkit-transform: rotateY(-15deg);
-            transform: rotateY(-15deg);
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
   }
   50% {
     -webkit-transform: rotateY(10deg);
             transform: rotateY(10deg);
   }
   100% {
-    -webkit-transform: rotateY(-15deg);
-            transform: rotateY(-15deg);
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
   }
 }
 
 @keyframes move {
   0% {
-    -webkit-transform: rotateY(-15deg);
-            transform: rotateY(-15deg);
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
   }
   50% {
     -webkit-transform: rotateY(10deg);
             transform: rotateY(10deg);
   }
   100% {
-    -webkit-transform: rotateY(-15deg);
-            transform: rotateY(-15deg);
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
   }
 }
 
@@ -655,18 +667,6 @@ body.light .row.slider .col-md-6 h1 {
   font-size: 25px;
   margin-top: 50px;
   line-height: 1.75;
-}
-
-body.light .row.slider .col-md-6 button {
-  text-align: center;
-  border: 1px solid #252525;
-  color: #252525;
-  margin-top: 50px;
-  width: 100px;
-  padding: 15px;
-  font-family: Lucida Handwriting;
-  position: absolute;
-  left: 40%;
 }
 
 body.light .row.main {
@@ -714,13 +714,11 @@ body.light .row.main .col-md-8 .itro {
 }
 
 body.light .row.main .col-md-8 .itro h6 {
-  font-family: Lucida Handwriting;
   font-size: 12px;
 }
 
 body.light .row.main .col-md-8 .itro h2 {
   font-weight: bold;
-  font-family: "Operator mono";
   font-style: italic;
 }
 
@@ -745,7 +743,6 @@ body.light .row.main .col-md-8 .skills {
 }
 
 body.light .row.main .col-md-8 .skills h6 {
-  font-family: Lucida Handwriting;
   font-size: 12px;
 }
 
@@ -799,7 +796,6 @@ body.light .row.main .col-md-8 .works {
 }
 
 body.light .row.main .col-md-8 .works h6 {
-  font-family: Lucida Handwriting;
   font-size: 12px;
 }
 
@@ -886,7 +882,6 @@ body.light .row.main .col-md-8 .contact {
 }
 
 body.light .row.main .col-md-8 .contact h6 {
-  font-family: Lucida Handwriting;
   font-size: 12px;
 }
 
