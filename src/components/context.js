@@ -254,6 +254,19 @@ export const works = {
       live :"Live",
       url :"https://inspiring-beaver-e92137.netlify.app/"
     },
+    {
+      id: 12,
+      type: "dev",
+      img: "./img/works/clothes.png",
+      title: "Clothes Store",
+      tech: "Javascript HTml Css",
+      tools:
+        "Javascript",
+      git: "Github",
+      gitUrl: "",
+      live :"Live",
+      url :"https://reverent-dijkstra-e13521.netlify.app/"
+    },
   ],
 };
 
