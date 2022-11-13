@@ -169,7 +169,7 @@ export const works = {
       title: "recpies",
       tech: "React",
       live: "live",
-      url: "https://recipes.gq/",
+      url: "https://nifty-goldwasser-698617.netlify.app/",
       git: "Github",
       gitUrl: "https://github.com/Abdelhadi-Amhamdi/React-App-1",
     },
@@ -200,7 +200,7 @@ export const works = {
       title: "Pets",
       tech: "Mern Stack",
       live:'Live',
-      url:'https://adopt-pets.tk',
+      url:'https://elastic-heisenberg-6b9083.netlify.app/',
       tools:
         "Node js , express , mongodb , react js , scss , html , jwt , react router dom , react hooks",
     },
