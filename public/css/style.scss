@@ -1,14 +1,12 @@
 // $darkPrimary: #dc3545;
 $lightPrimary: #dc3545;
-$darkPrimary: #495057;
+$darkPrimary: #2196f3;
 
 @mixin  backblur {
   background-color: #212529;
   backdrop-filter: blur(2px);
   box-shadow: rgba($color: #000000, $alpha: 0.9) 0px 3px 14px;
 }
-
-
 
 body.dark {
   font-family: "IBM Plex Mono", monospace !important;
@@ -77,10 +75,11 @@ body.dark {
     margin-top: 20px;
     @include backblur();
     width: 100%;
-    height: 60vh;
+    height: 40vh;
     margin-left: 0px;
 
     .col-md-6 {
+      padding:  50px 0px;
       svg {
         width: 65%;
         height: 100%;
@@ -108,7 +107,13 @@ body.dark {
           fill: #ffb8b8;
         }
       }
-      
+      img{
+        width : 30vh;
+        height:  30vh;
+      }
+      height:  100%;
+      display: flex;
+      align-items: center;
       h1 {
         color: white;
         font-family: "IBM Plex Mono", monospace;
@@ -321,6 +326,15 @@ body.dark {
                 display: flex;
               }
             }
+            .col-md-12
+            {
+                display:  flex;
+                justify-content: center;
+                img{
+                width: 30vh;
+                height: 30vh;
+              }
+            }
           }
           .btn-primary {
             background-color: $darkPrimary;
@@ -456,7 +470,7 @@ body.light {
     background-color: rgba($color: white, $alpha: 1);
     box-shadow: rgba(14, 14, 14, 0.3) 1px 4px 6px;
     width: 100%;
-    height: 60vh;
+    height: 40vh;
     margin-left: 0px;
     .col-md-6 {
       svg {

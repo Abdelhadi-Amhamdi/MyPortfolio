@@ -4,7 +4,6 @@
     height: 110px !important;
   }
   .navbar .content {
-    display: -ms-grid !important;
     display: grid !important;
   }
   .navbar a {
@@ -55,7 +54,6 @@
     height: 200px !important;
   }
 }
-
 @media screen and (width: 1024px) {
   .navbar {
     width: 100% !important;
@@ -73,7 +71,6 @@
     max-width: 200px !important;
   }
 }
-
 @media screen and (width: 768px) {
   .navbar {
     width: 100% !important;
@@ -92,10 +89,8 @@
     max-width: auto !important;
   }
 }
-
 @media screen and (width: 624px) {
   .row.slider {
     height: 40vh !important;
   }
-}
-/*# sourceMappingURL=responsive.css.map */
+}/*# sourceMappingURL=responsive.css.map */

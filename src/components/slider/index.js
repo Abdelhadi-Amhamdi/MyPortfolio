@@ -8,13 +8,14 @@ const Slider = () => {
     return(
         <>
         <div className="row slider">
-            <div className="col-md-6">
-                
-                <h1>{heroInfo.name}</h1>
-                <h1>{heroInfo.hero1}</h1>
+            <div className="col-md-6 slider-text">
+                <div className="slider-text">
+                    <h1>{heroInfo.name}</h1>
+                    <h1>{heroInfo.hero1}</h1>
+                </div>
             </div>
             <div className="col-md-6">
-                <Svg />
+                <img src="img/Application programming interface-rafiki.svg" />
             </div>
         </div>
         </>

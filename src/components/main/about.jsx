@@ -6,13 +6,12 @@ export default function About() {
         <div className="about">
             <div className="row">
                 <div className="col-md-6">
-                    <Cvsvg />
+                    <img src="img/Online resume-rafiki.svg" alt="" />
                 </div>
                 <div className="col-md-6">
                    <div className="row">
                         <div className="col-md-12">
                             <div className="myinfos">
-                                <div>Birthday : <span>18-06-2000</span></div>
                                 <div>Phone : <span>+212 621 420 623</span></div>
                             </div>
                         </div>

@@ -13,11 +13,13 @@ import {
   SiLaravel,
   SiMongodb,
   SiMysql,
-  SiNodeDotJs,
+  SiNodedotjs,
   SiReact,
   SiSass,
   SiTwitter,
-  SiIonic
+  SiIonic,
+  SiC,
+  SiTailwindcss
 } from "react-icons/si";
 
 export const SocilLinks = [
@@ -44,7 +46,7 @@ export const SocilLinks = [
 ];
 
 export const heroInfo = {
-  name: "Hi I'm Abdelhadi",
+  name: "Hi there I'm Abdelhadi",
   hero1: "I'm a front-end developer and web designer",
 };
 
@@ -67,8 +69,16 @@ export const skills = {
   title: "My Skills :",
   SkillsIcons: [
     {
-      name: "Html5",
-      icon: <SiHtml5 />,
+      name: "Nodejs",
+      icon: <SiNodedotjs />,
+    },
+    {
+      name: "",
+      icon: <SiC />,
+    },
+    {
+      name: "Tailwind",
+      icon: <SiTailwindcss />,
     },
     {
       name: "Css3",
@@ -93,10 +103,6 @@ export const skills = {
     {
       name: "React.js",
       icon: <SiReact />,
-    },
-    {
-      name: "Node.js",
-      icon: <SiNodeDotJs />,
     },
     {
       name: "Laravel",
@@ -180,7 +186,7 @@ export const works = {
       title: "portfolio",
       tech: "React & scss",
       live: "live",
-      url: "https://aabm.cf",
+      url: "https://quirky-heyrovsky-9b8484.netlify.app",
       git: "Github",
       gitUrl: "https://github.com/Abdelhadi-Amhamdi/PORTFOLIO",
     },
@@ -226,7 +232,7 @@ export const works = {
       git: "Github",
       gitUrl: "",
       live :"Live",
-      url :"https://plants-garden.tk"
+      url :"https://vigilant-bardeen-46f09b.netlify.app"
     },
     {
       id: 10,

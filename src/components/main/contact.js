@@ -24,6 +24,9 @@ const Contact = () => {
                         window.open('mailto:aamhamdi943@gmail.com' , "Gmail");
                     }}>Say Hi</button>
                 </div>
+                <div className="col-md-12 contact-img">
+                    <img src="img/Get in touch-pana.svg" alt="" />
+                </div>
                 <div className="col-md-12">
                     <div className="row">
                         {SocilLinks.map(item => {
