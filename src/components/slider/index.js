@@ -1,6 +1,5 @@
 import React from 'react'
 import {heroInfo} from '../context'
-import Svg from './svg'
 
 
 const Slider = () => {
@@ -15,7 +14,7 @@ const Slider = () => {
                 </div>
             </div>
             <div className="col-md-6">
-                <img src="img/Application programming interface-rafiki.svg" />
+                <img src="img/Application programming interface-rafiki.svg"  alt="img"/>
             </div>
         </div>
         </>

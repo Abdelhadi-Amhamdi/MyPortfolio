@@ -6,7 +6,6 @@ import {
   SiCss3,
   SiFacebook,
   SiGithub,
-  SiHtml5,
   SiInstagram,
   SiJavascript,
   SiJquery,

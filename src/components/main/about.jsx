@@ -1,5 +1,4 @@
 import React from 'react'
-import Cvsvg from './cv_svg'
 
 export default function About() {
     return (
