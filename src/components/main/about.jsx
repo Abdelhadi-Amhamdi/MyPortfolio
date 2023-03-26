@@ -23,12 +23,12 @@ export default function About() {
                     </div>
                 </div>
                 <div className="col-md-4">
-                    <a 
-                        className="btn btn-primary btn-block offset-4" 
-                        href="#"
-                        target="_blank"
-                        rel="noreferrer"
-                    >My Resume</a>
+                  //  <a 
+                   //     className="btn btn-primary btn-block offset-4" 
+                     //   href="#"
+                      //  target="_blank"
+                      //  rel="noreferrer"
+                   // >My Resume</a> 
                 </div>
             </div>
         </div>
